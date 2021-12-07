@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  1 19:20:12 2021
-
-@author: antonia
-"""
 import re
 import copy
 #%%
