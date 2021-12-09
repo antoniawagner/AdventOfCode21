@@ -7,9 +7,6 @@ with open('/home/antonia/Documents/AdventCode/adv7.dat', 'r') as f:
     linesf=f.read()
     data=([int(num) for num in linesf.split(',')])
 #%%
-end_pos=sy.Symbol('end_pos')
-#
-#%%
 f1 = lambda x: sum(abs(data[n]-x) for n in range(len(data)))
 f2 = lambda x: sum((abs(data[n]-x)**2+(abs(data[n]-x))) /2 for n in range(len(data)))
 #%%
